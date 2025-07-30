@@ -8,7 +8,7 @@ TOKEN = "8318731976:AAGRLByy52ordZtigWkkQ-Ux2Hf7x7AiLIE"
 logging.basicConfig(level=logging.INFO)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(f"Привет, Тумэн Баярович! Я на связи 🤖")
+    await update.message.reply_text("Привет, Тумэн Баярович! Бот теперь работает стабильно на Render 🛠")
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
